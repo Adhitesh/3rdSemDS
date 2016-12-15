@@ -30,7 +30,12 @@ int ins(int sta,int dat)
         {
                 printf("\n\nEnter the Position ");
                 scanf("%d",&pos);
-                while((pos>0)&&(temp!=NULL))
+                if(pos==1)
+                {
+                        ins(1,dat);
+                        return 1;
+                }
+                while((pos>1)&&(temp!=NULL))
                 {
                         prv=temp;
                         temp=temp->next;
