@@ -1,4 +1,4 @@
-//Queue using stacks
+//Queue using Link Lists
 #include<stdio.h>
 #include<stdlib.h>
 
