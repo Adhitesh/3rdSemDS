@@ -41,7 +41,7 @@ int pop()
 
 int prin()
 {
-        int i;
+        int i=top-1;
         printf("\n\nNow the stack is :\n\n");
         if(top==0)
         {
